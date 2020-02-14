@@ -59,6 +59,6 @@ export default class Main extends Component {
                     <button disabled={page === productInfo.pages} onClick={this.nextPage}>Próximo</button>
                 </div>
             </div>
-        )
+        ) 
     }
 }
